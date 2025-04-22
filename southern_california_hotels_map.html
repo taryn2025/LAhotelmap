@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8ef97a558e23b92fc988f99237bcba39 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8ef97a558e23b92fc988f99237bcba39" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8ef97a558e23b92fc988f99237bcba39 = L.map(
+                "map_8ef97a558e23b92fc988f99237bcba39",
+                {
+                    center: [33.8, -117.92],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7c7397e381f9eb92e84867692cd2816d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+            var marker_ab0c26942821fa481801568739d90393 = L.marker(
+                [33.8688, -118.0667],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_531327a6cc3239b5f9b8b4e6ec14f6cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_555a05a67f052fb273cd31e0ce452a4b = $(`<div id="html_555a05a67f052fb273cd31e0ce452a4b" style="width: 100.0%; height: 100.0%;">Sheraton Cerritos</div>`)[0];
+            popup_531327a6cc3239b5f9b8b4e6ec14f6cd.setContent(html_555a05a67f052fb273cd31e0ce452a4b);
+        
+
+        marker_ab0c26942821fa481801568739d90393.bindPopup(popup_531327a6cc3239b5f9b8b4e6ec14f6cd)
+        ;
+
+        
+    
+    
+            var marker_38f86c3cca6257fe7b51375bbe96060e = L.marker(
+                [33.9174, -118.0817],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_25a0870613d61957f145e480cf07604d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ead68ff7c5385ae16d48149a0780d742 = $(`<div id="html_ead68ff7c5385ae16d48149a0780d742" style="width: 100.0%; height: 100.0%;">DoubleTree by Hilton Hotel Los Angeles - Norwalk</div>`)[0];
+            popup_25a0870613d61957f145e480cf07604d.setContent(html_ead68ff7c5385ae16d48149a0780d742);
+        
+
+        marker_38f86c3cca6257fe7b51375bbe96060e.bindPopup(popup_25a0870613d61957f145e480cf07604d)
+        ;
+
+        
+    
+    
+            var marker_f36da16bdac764dcf7b475f691ef13ed = L.marker(
+                [33.8467, -117.9988],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_f3abf9a7cfcbfc81dfb57c1690dbb63f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dab14fe5483980a1200af78eff38487a = $(`<div id="html_dab14fe5483980a1200af78eff38487a" style="width: 100.0%; height: 100.0%;">DoubleTree by Hilton Buena Park</div>`)[0];
+            popup_f3abf9a7cfcbfc81dfb57c1690dbb63f.setContent(html_dab14fe5483980a1200af78eff38487a);
+        
+
+        marker_f36da16bdac764dcf7b475f691ef13ed.bindPopup(popup_f3abf9a7cfcbfc81dfb57c1690dbb63f)
+        ;
+
+        
+    
+    
+            var marker_3995bc81286b807458a4f6268a120d38 = L.marker(
+                [33.7866, -117.9143],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_1a0f769f87421f0816b47213d08c271b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8b2e21a7092b35353ff75decf50e402 = $(`<div id="html_b8b2e21a7092b35353ff75decf50e402" style="width: 100.0%; height: 100.0%;">Hyatt Regency Orange County</div>`)[0];
+            popup_1a0f769f87421f0816b47213d08c271b.setContent(html_b8b2e21a7092b35353ff75decf50e402);
+        
+
+        marker_3995bc81286b807458a4f6268a120d38.bindPopup(popup_1a0f769f87421f0816b47213d08c271b)
+        ;
+
+        
+    
+    
+            var marker_7abd83db3f5b3235a2fb00d737fba1c5 = L.marker(
+                [33.768, -118.1892],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_b1b232eb4bb879eca2d6d3bc041cc793 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8d846bbf404f4285cb6acc714a959ab = $(`<div id="html_b8d846bbf404f4285cb6acc714a959ab" style="width: 100.0%; height: 100.0%;">Marriott Long Beach</div>`)[0];
+            popup_b1b232eb4bb879eca2d6d3bc041cc793.setContent(html_b8d846bbf404f4285cb6acc714a959ab);
+        
+
+        marker_7abd83db3f5b3235a2fb00d737fba1c5.bindPopup(popup_b1b232eb4bb879eca2d6d3bc041cc793)
+        ;
+
+        
+    
+    
+            var marker_943cba984584221e6ccfc632d6e5d61c = L.marker(
+                [33.9025, -118.0091],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_b15daf88b7b0f09c3d116642090f4dd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_888910fced1935fb1a282ad22486d22b = $(`<div id="html_888910fced1935fb1a282ad22486d22b" style="width: 100.0%; height: 100.0%;">Holiday Inn La Mirada – Buena Park</div>`)[0];
+            popup_b15daf88b7b0f09c3d116642090f4dd3.setContent(html_888910fced1935fb1a282ad22486d22b);
+        
+
+        marker_943cba984584221e6ccfc632d6e5d61c.bindPopup(popup_b15daf88b7b0f09c3d116642090f4dd3)
+        ;
+
+        
+    
+    
+            var marker_bc3d3a2463af68d6c308c8091a4a3b0c = L.marker(
+                [33.7966, -118.1553],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_cbea171b96df9a49bfce014a2a23dd28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e49716bd3ba5da885375cb81e174ac98 = $(`<div id="html_e49716bd3ba5da885375cb81e174ac98" style="width: 100.0%; height: 100.0%;">Holiday Inn Long Beach</div>`)[0];
+            popup_cbea171b96df9a49bfce014a2a23dd28.setContent(html_e49716bd3ba5da885375cb81e174ac98);
+        
+
+        marker_bc3d3a2463af68d6c308c8091a4a3b0c.bindPopup(popup_cbea171b96df9a49bfce014a2a23dd28)
+        ;
+
+        
+    
+    
+            var marker_6de61091dd4b99312d82bc235e724c87 = L.marker(
+                [33.7982, -117.919],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_ed8beebd8e661cc11168e74e0e72bc09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fb3f07190c81a0e8b7e75d5b8ec3b8ad = $(`<div id="html_fb3f07190c81a0e8b7e75d5b8ec3b8ad" style="width: 100.0%; height: 100.0%;">Anaheim Marriott</div>`)[0];
+            popup_ed8beebd8e661cc11168e74e0e72bc09.setContent(html_fb3f07190c81a0e8b7e75d5b8ec3b8ad);
+        
+
+        marker_6de61091dd4b99312d82bc235e724c87.bindPopup(popup_ed8beebd8e661cc11168e74e0e72bc09)
+        ;
+
+        
+    
+    
+            var marker_0470c70c295f2d13f2839e9eb68d2114 = L.marker(
+                [33.798, -117.9201],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_5df6899b0f643bc37d3da57292259023 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00f5f78dfa38cbe5b25c5666b42ca138 = $(`<div id="html_00f5f78dfa38cbe5b25c5666b42ca138" style="width: 100.0%; height: 100.0%;">Hilton Anaheim</div>`)[0];
+            popup_5df6899b0f643bc37d3da57292259023.setContent(html_00f5f78dfa38cbe5b25c5666b42ca138);
+        
+
+        marker_0470c70c295f2d13f2839e9eb68d2114.bindPopup(popup_5df6899b0f643bc37d3da57292259023)
+        ;
+
+        
+    
+    
+            var marker_7eae639e502a704f85c4bd3b94b5ffe2 = L.marker(
+                [33.7728, -118.1878],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_71043186a4f5657463a2cf45b8610484 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d40d0181d303898f3c487a9c10c9bc44 = $(`<div id="html_d40d0181d303898f3c487a9c10c9bc44" style="width: 100.0%; height: 100.0%;">440 Elm Hotel</div>`)[0];
+            popup_71043186a4f5657463a2cf45b8610484.setContent(html_d40d0181d303898f3c487a9c10c9bc44);
+        
+
+        marker_7eae639e502a704f85c4bd3b94b5ffe2.bindPopup(popup_71043186a4f5657463a2cf45b8610484)
+        ;
+
+        
+    
+    
+            var marker_16ee01dbcffb2e2ffb353a704250a8f8 = L.marker(
+                [33.802, -117.9156],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_49e5d5bf4ae45a13e7a0fb39a5fb12b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_949a050cfcfa66ee92e11adeddf2386f = $(`<div id="html_949a050cfcfa66ee92e11adeddf2386f" style="width: 100.0%; height: 100.0%;">Sheraton Park Hotel at the Anaheim Resort</div>`)[0];
+            popup_49e5d5bf4ae45a13e7a0fb39a5fb12b3.setContent(html_949a050cfcfa66ee92e11adeddf2386f);
+        
+
+        marker_16ee01dbcffb2e2ffb353a704250a8f8.bindPopup(popup_49e5d5bf4ae45a13e7a0fb39a5fb12b3)
+        ;
+
+        
+    
+    
+            var marker_d91d8fb6398dbfac2b4ab71efacee413 = L.marker(
+                [33.7854, -117.9211],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_f0e67d7239f20a949520b7e31f65c07d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dcab228d3e944b0975867b9fe5750025 = $(`<div id="html_dcab228d3e944b0975867b9fe5750025" style="width: 100.0%; height: 100.0%;">Embassy Suites Anaheim South</div>`)[0];
+            popup_f0e67d7239f20a949520b7e31f65c07d.setContent(html_dcab228d3e944b0975867b9fe5750025);
+        
+
+        marker_d91d8fb6398dbfac2b4ab71efacee413.bindPopup(popup_f0e67d7239f20a949520b7e31f65c07d)
+        ;
+
+        
+    
+    
+            var marker_e35713ca4ff53404023e93bc066d0dcb = L.marker(
+                [33.8033, -117.92],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_0eb04901b48598bbc2cc78f31eba1269 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f2687a318f335d4ab10c43d4439511e = $(`<div id="html_8f2687a318f335d4ab10c43d4439511e" style="width: 100.0%; height: 100.0%;">Westin Anaheim Resort</div>`)[0];
+            popup_0eb04901b48598bbc2cc78f31eba1269.setContent(html_8f2687a318f335d4ab10c43d4439511e);
+        
+
+        marker_e35713ca4ff53404023e93bc066d0dcb.bindPopup(popup_0eb04901b48598bbc2cc78f31eba1269)
+        ;
+
+        
+    
+    
+            var marker_db22d1aacf6dc1a187e5902c3224efb3 = L.marker(
+                [34.0583, -117.8255],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_b600460c5f525ae6fe1203cfe49ce90e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e5c35fd391785736b3094742dd19295 = $(`<div id="html_2e5c35fd391785736b3094742dd19295" style="width: 100.0%; height: 100.0%;">DoubleTree by Hilton Pomona</div>`)[0];
+            popup_b600460c5f525ae6fe1203cfe49ce90e.setContent(html_2e5c35fd391785736b3094742dd19295);
+        
+
+        marker_db22d1aacf6dc1a187e5902c3224efb3.bindPopup(popup_b600460c5f525ae6fe1203cfe49ce90e)
+        ;
+
+        
+    
+    
+            var marker_14496048edafce9dd06a793e4b04b21a = L.marker(
+                [33.6914, -117.8849],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_9f3e78f7a6bd60549c937e8c86b6cce9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b8321f68e2e4501ed147aa0b2957028 = $(`<div id="html_5b8321f68e2e4501ed147aa0b2957028" style="width: 100.0%; height: 100.0%;">Westin Costa Mesa</div>`)[0];
+            popup_9f3e78f7a6bd60549c937e8c86b6cce9.setContent(html_5b8321f68e2e4501ed147aa0b2957028);
+        
+
+        marker_14496048edafce9dd06a793e4b04b21a.bindPopup(popup_9f3e78f7a6bd60549c937e8c86b6cce9)
+        ;
+
+        
+    
+    
+            var marker_fa047c6dabb48bb487659533fb5e343f = L.marker(
+                [33.829, -118.349],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_0f9fca63c1dc837f54e4bf5423009108 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87d3a62fb560ea3fb41f7dbbce442b31 = $(`<div id="html_87d3a62fb560ea3fb41f7dbbce442b31" style="width: 100.0%; height: 100.0%;">Doubletree Torrance</div>`)[0];
+            popup_0f9fca63c1dc837f54e4bf5423009108.setContent(html_87d3a62fb560ea3fb41f7dbbce442b31);
+        
+
+        marker_fa047c6dabb48bb487659533fb5e343f.bindPopup(popup_0f9fca63c1dc837f54e4bf5423009108)
+        ;
+
+        
+    
+    
+            var marker_6585c6981cd16170e92d1a4fde0e54ad = L.marker(
+                [33.8162, -117.9261],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_83e4867ec19cc22094d6d37977544215 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b6228e37f2952c2e3c54dce3dc380f1 = $(`<div id="html_1b6228e37f2952c2e3c54dce3dc380f1" style="width: 100.0%; height: 100.0%;">Anaheim Majestic Garden Hotel</div>`)[0];
+            popup_83e4867ec19cc22094d6d37977544215.setContent(html_1b6228e37f2952c2e3c54dce3dc380f1);
+        
+
+        marker_6585c6981cd16170e92d1a4fde0e54ad.bindPopup(popup_83e4867ec19cc22094d6d37977544215)
+        ;
+
+        
+    
+    
+            var marker_0a616f9fa4aad2757bf3554c15256442 = L.marker(
+                [33.9173, -118.0834],
+                {}
+            ).addTo(map_8ef97a558e23b92fc988f99237bcba39);
+        
+    
+        var popup_44fc128dbc7be8c8c66f4edcba38e69d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a68250fe0634fd9617a934365e0d7165 = $(`<div id="html_a68250fe0634fd9617a934365e0d7165" style="width: 100.0%; height: 100.0%;">Hotel Saddleback - Norwalk</div>`)[0];
+            popup_44fc128dbc7be8c8c66f4edcba38e69d.setContent(html_a68250fe0634fd9617a934365e0d7165);
+        
+
+        marker_0a616f9fa4aad2757bf3554c15256442.bindPopup(popup_44fc128dbc7be8c8c66f4edcba38e69d)
+        ;
+
+        
+    
+</script>
+</html>
